@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import InfoPage from '../components/InfoPage.vue'
-import HomePage from '../components/HomePage.vue'
-import InfoPage_2 from '../components/InfoPage_2.vue'
+import InvestmentDeclaration from '../components/InvestmentDeclaration.vue'
+import InvestmentAgency from '../components/InvestmentAgency.vue'
+import InvestmentMap from '../components/InvestmentMap.vue'
+import InvestmentCommittee from '../components/InvestmentCommittee.vue'
+import InvestmentRules from '../components/InvestmentRules.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -9,17 +11,32 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomePage
+      component: () => import('../components/HomePage.vue')
     },
     {
-      path: '/info',
-      name: 'info',
-      component: InfoPage
+      path: '/investment-declaration',
+      name: 'investment-declaration',
+      component: InvestmentDeclaration
     },
     {
-      path: '/info2',
-      name: 'info2',
-      component: InfoPage_2
+      path: '/investment-agency',
+      name: 'investment-agency',
+      component: InvestmentAgency
+    },
+    {
+      path: '/investment-map',
+      name: 'investment-map',
+      component: InvestmentMap
+    },
+    {
+      path: '/investment-committee',
+      name: 'investment-committee',
+      component: InvestmentCommittee
+    },
+    {
+      path: '/investment-rules',
+      name: 'investment-rules',
+      component: InvestmentRules
     }
   ]
 })

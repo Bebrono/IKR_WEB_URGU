@@ -9,6 +9,11 @@
         <h1>Инфопортал</h1>
         <ul>
           <li><router-link to="/">Главная</router-link></li>
+          <li><router-link to="/investment-declaration">Инвестиционная декларация</router-link></li>
+          <li><router-link to="/investment-agency">Агентство инвестиционного развития</router-link></li>
+          <li><router-link to="/investment-map">Инвестиционная карта Челябинской области</router-link></li>
+          <li><router-link to="/investment-committee">Инвестиционный комитет</router-link></li>
+          <li><router-link to="/investment-rules">Свод инвестиционных правил</router-link></li>
         </ul>
       </nav>
     </header>
@@ -54,6 +59,7 @@ nav ul {
   gap: 20px;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 nav a {
