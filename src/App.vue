@@ -210,7 +210,6 @@ main {
   opacity: 0.8;
 }
 
-/* Анимации для router-view */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity var(--transition-speed) ease;
@@ -221,7 +220,6 @@ main {
   opacity: 0;
 }
 
-/* Медиа-запросы для адаптивности */
 @media (max-width: 1024px) {
   nav ul {
     gap: 20px;
