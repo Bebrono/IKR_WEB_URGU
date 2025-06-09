@@ -16,7 +16,7 @@
             if (has_custom_logo()) {
                 the_custom_logo();
             } else {
-                echo '<h1 class="site-title"><a href="' . esc_url(home_url('/')) . '">' . get_bloginfo('name') . '</a></h1>';
+                echo '<h1 class="site-title"><a href="' . esc_url(home_url('/')) . '">Главная</a></h1>';
             }
             ?>
             

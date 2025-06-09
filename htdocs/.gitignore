@@ -1,0 +1,48 @@
+# WordPress core files
+wp-admin/
+wp-includes/
+wp-*.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+
+# Configuration
+wp-config.php
+wp-config-sample.php
+
+# Uploads directory
+wp-content/uploads/
+
+# Cache and temporary files
+wp-content/cache/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/debug.log
+
+# Plugin and theme directories (except our custom theme)
+wp-content/plugins/
+wp-content/themes/*
+!wp-content/themes/ikr-theme/
+
+# Language files
+wp-content/languages/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+*.sql
+*.sqlite
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules and build files
+node_modules/
+dist/
+build/ 

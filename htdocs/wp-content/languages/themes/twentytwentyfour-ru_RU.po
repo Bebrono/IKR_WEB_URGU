@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Four package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-09 07:24:03+0000\n"
+"PO-Revision-Date: 2025-05-20 19:47:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,6 +22,65 @@ msgstr "Twenty Twenty-Four"
 #, gp-priority: high
 msgid "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4."
 msgstr "Тема Twenty Twenty-Four разработана таким образом, чтобы быть гибкой, универсальной и применимой к любому веб-сайту. Её коллекция шаблонов и паттернов адаптирована к различным потребностям, таким как презентация бизнеса, ведение блога, написание или демонстрация работ. Множество возможностей открывается всего лишь с помощью нескольких корректировок цвета и типографики. Twenty Twenty-Four поставляется с вариациями стиля и возможностью полного оформления страниц, что помогает ускорить процесс создания сайта, полностью совместима с редактором сайта и использует преимущества новых инструментов дизайна, представленных в WordPress 6.4."
+
+#: patterns/text-centered-statement.php
+msgctxt "Pattern description"
+msgid "A centered text statement with a large amount of padding on all sides."
+msgstr "Выровненное по центру текстовое сообщение с большим объемом по всем сторонам."
+
+#: patterns/hidden-posts-heading.php
+msgctxt "Pattern title"
+msgid "Posts heading"
+msgstr "Заголовок записи"
+
+#: patterns/banner-project-description.php
+msgctxt "Pattern description"
+msgid "Project description section with title, paragraph, and an image."
+msgstr "Раздел описания проекта с заголовком, абзацем и изображением."
+
+#: patterns/cta-pricing.php
+msgctxt "Pattern description"
+msgid "A pricing section with a title, a paragraph and three pricing levels."
+msgstr "Раздел цен с заголовком, параграфом и тремя уровнями цен."
+
+#: patterns/text-faq.php:35
+msgctxt "Question in the FAQ pattern"
+msgid "Who is behind Études?"
+msgstr "Кто стоит за Études?"
+
+#: patterns/text-faq.php
+msgctxt "Pattern description"
+msgid "A FAQ section with a large FAQ heading and a group of questions and answers."
+msgstr "Раздел FAQ с большим заголовком FAQ и группой вопросов и ответов."
+
+#: patterns/testimonial-centered.php
+msgctxt "Pattern description"
+msgid "A centered testimonial section with an avatar, name, and job title."
+msgstr "Расположенный по центру раздел отзывов с аватаром, именем и названием должности."
+
+#: patterns/footer.php:49
+msgid "Team"
+msgstr "Команда"
+
+#: patterns/footer.php:50
+msgid "History"
+msgstr "История"
+
+#: patterns/footer.php:72
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: patterns/footer.php:73
+msgid "Terms and Conditions"
+msgstr "Правила и условия"
+
+#: patterns/footer.php:74
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: patterns/footer.php:96
+msgid "Twitter/X"
+msgstr "Twitter/X"
 
 #: functions.php:199
 msgctxt "Block pattern category"
@@ -1507,6 +1566,42 @@ msgstr "Лёд"
 msgctxt "Style variation name"
 msgid "Rust"
 msgstr "Ржавчина"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Sidebar"
+msgstr "Страница с боковой панелью"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page with Wide Image"
+msgstr "Страница с широким изображением"
+
+#: patterns/testimonial-centered.php:12
+msgctxt "Name of testimonial pattern"
+msgid "Testimonial"
+msgstr "Рекомендации"
+
+#: patterns/text-faq.php:46
+msgctxt "Question in the FAQ pattern"
+msgid "I'd like to get to meet fellow architects, how can I do that?"
+msgstr "Я хочу встретиться с коллегами-архитекторами, как мне это сделать?"
+
+#: patterns/text-faq.php:57
+msgctxt "Question in the FAQ pattern"
+msgid "Can I apply to be a part of the team or work as a contractor?"
+msgstr "Могу ли я подать заявку на участие в команде или работу в качестве подрядчика?"
+
+#: patterns/text-faq.php:24
+msgctxt "Question in the FAQ pattern"
+msgid "What is your process working in smaller projects?"
+msgstr "Каков ваш процесс работы в небольших проектах?"
+
+#: patterns/text-faq.php:27 patterns/text-faq.php:38 patterns/text-faq.php:49
+#: patterns/text-faq.php:60
+msgctxt "Answer in the FAQ pattern"
+msgid "Études offers comprehensive consulting, management, design, and research solutions. Our vision is to be at the forefront of architectural innovation, fostering a global community of architects and enthusiasts united by a passion for creating spaces. Every architectural endeavor is an opportunity to shape the future."
+msgstr "Études предлагает комплексные решения в области консалтинга, управления, дизайна и исследований. Наше видение — быть в авангарде архитектурных инноваций, способствуя развитию глобального сообщества архитекторов и энтузиастов, объединенных страстью к созданию пространств. Каждое архитектурное начинание — это возможность формировать будущее."
 
 #. Author of the theme
 #: style.css
