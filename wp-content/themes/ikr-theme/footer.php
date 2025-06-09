@@ -1,12 +1,20 @@
+<?php
+/**
+ * The template for displaying the footer
+ */
+?>
+
     </div><!-- .container -->
 </main><!-- .site-content -->
+
+<?php get_template_part('template-parts/feedback-form'); ?>
 
 <footer class="site-footer">
     <div class="container">
         <div class="footer-content">
             <div class="footer-info">
                 <div class="copyright">
-                    <p>&copy; <?php echo date('Y'); ?> <span class="company-name">IT-Kumis</span>. Все права защищены.</p>
+                    <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. Все права защищены.</p>
                 </div>
             </div>
         </div>
